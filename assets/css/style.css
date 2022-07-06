@@ -1,0 +1,31 @@
+.header {
+  margin-bottom: 80px;
+}
+.header-logo {
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  background-color: #232323;
+  background-position: 50% 50%;
+  font-family: "PT Serif", serif;
+  letter-spacing: 4px;
+}
+.header-logo__link:hover, .header-logo__link:focus {
+  text-decoration: none;
+}
+.header-logo__title {
+  display: block;
+  font-size: 56px;
+  color: #df8a13;
+}
+.header-logo__subtitle {
+  font-size: 18.4px;
+  color: #ffffff;
+}
+.header-navbar__link:hover, .header-navbar__link:focus {
+  background-color: #165690 !important;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}

@@ -1,0 +1,39 @@
+.header {
+  margin-bottom: 80px;
+  &-logo {
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #232323;
+    background-position: 50% 50%;
+    font-family: $font-header;
+    letter-spacing: 4px;
+    &__link {
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    &__title {
+      display: block;
+
+      font-size: 56px;
+      color: $color-accent;
+    }
+    &__subtitle {
+      font-size: 18.4px;
+      color: $color-white;
+    }
+  }
+  &-navbar {
+    &__link {
+      &:hover,
+      &:focus {
+        background-color: $color-primary !important;
+        transition: 0.5s;
+      }
+    }
+  }
+}
